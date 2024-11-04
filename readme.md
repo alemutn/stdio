@@ -22,10 +22,10 @@ Once installed...
 
 ```typescript
 
-import File from "./file";
+import CustomFileClass from "./file";
 import path from "path";
 
-const file: File = new File();
+const file: CustomFileClass = new CustomFileClass();
 
 function writeFile() {
   file.open(path.resolve("prueba.txt"), "w");
@@ -43,8 +43,10 @@ function writeFile() {
 **Alternative 1**
 
 ```typescript
-import File from "./file";
+import CustomFileClass from "./file";
 import path from "path";
+
+const file: CustomFileClass = new CustomFileClass();
 
 async function readFile() {
   file.open(path.resolve("prueba.txt"), "r");
@@ -61,8 +63,10 @@ async function readFile() {
 **Alternative 2**
 
 ```typescript
-import File from "./file";
+import CustomFileClass from "./file";
 import path from "path";
+
+const file: CustomFileClass = new CustomFileClass();
 
 async function readFile() {
   file.open(path.resolve("prueba.txt"), "r");
