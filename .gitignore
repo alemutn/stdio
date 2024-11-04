@@ -1,0 +1,22 @@
+# coverage
+coverage
+# build
+dist
+# documentation
+docs
+# Dependency directory
+node_modules
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+# Log files
+*.log
+# Tmp files
+tmp/
+tmp 
+*.env
+# Visual Code
+.vscode
+# VIM
+*.swp
