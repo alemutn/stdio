@@ -4,13 +4,11 @@ Module to perform Input/Output operations similar to C-Style. ONLY for education
 
 ## How to install
 
-In your package.json add the project as a dependency.
+Run this in your command line:
 
-```json
+```bash
 
-"dependencies": {
-    "stdio": "https://github.com/ahm0/stdio.git"
-}
+npm install --save alemutn/stdio#master
 
 ```
 
